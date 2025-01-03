@@ -5,6 +5,8 @@
 
 module TwseStockIdTest {
     requires TwseStockId;
+    requires JsonRequest;
+    requires org.mockito;
     requires org.junit.jupiter.api;
     opens com.hunterhope.twsestockid.service.test;
 }

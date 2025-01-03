@@ -4,5 +4,8 @@
  */
 
 module TwseStockId {
+    requires JsonRequest;
     exports com.hunterhope.twsestockid.service;
+    exports com.hunterhope.twsestockid.exception;
+    exports com.hunterhope.twsestockid.data to TwseStockIdTest;
 }
