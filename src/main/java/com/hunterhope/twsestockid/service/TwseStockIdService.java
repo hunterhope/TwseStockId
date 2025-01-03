@@ -32,7 +32,7 @@ public class TwseStockIdService {
     
     public List<String> suggestStockId(String input) throws TwseStockIdException {
         //建立查詢字串
-        UrlAndQueryString qs = new UrlAndQueryString("https://www.twse.com.tw/rwd/zh/api/codeQuery?");
+        UrlAndQueryString qs = new UrlAndQueryString("https://www.twse.com.tw/rwd/zh/api/codeQuery");
         qs.addParam("query", input);
         
         try {
