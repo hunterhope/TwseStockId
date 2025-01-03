@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/module-info.java to edit this template
  */
 
-module TwseStockId {
-    exports com.hunterhope.twsestockid.service;
+module TwseStockIdTest {
+    requires TwseStockId;
+    requires org.junit.jupiter.api;
+    opens com.hunterhope.twsestockid.service.test;
 }
